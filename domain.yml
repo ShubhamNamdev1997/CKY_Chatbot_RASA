@@ -9,7 +9,9 @@ intents:
   - mood_unhappy
   - bot_challenge
   - Achievments
+  - Targets
   - Company_details
+  - Mission
   - Mentors
   - Cancellation_and_Refund
   - Prerequisite
@@ -69,13 +71,17 @@ responses:
   utter_iambot:
     - text: "Yes you are talking to a bot"
 
-  utter_Achievments:
-  - text: "The students at Code Karo Yaaro have made some amazing applications and games like the Animal Sound app or the
-    animal football battle game and much more"
+  utter_Achievements:
+  - text: "The students at Code Karo Yaaro have made some amazing applications and games like the Animal Sound app or the animal football battle game and much more"
+ 
+  utter_targets:
+  - text: "we will arrange more Coding Winter and Summer Camps and coding quizzes, competitions, online quizzes, and programs for kids from time to time."
 
   utter_Company_details:
-  - text: "Manish Motghare founded Code Karo Yaaro in the year 2020. Code karo yaaro is Nagpur based company with a vision to make every child literate in computer science and to generate a caliber of coding to enhance life experience. We want to develop the thinking ability of every child, by advancing computer science with new technologies and supporting them for a bright future."
-
+  - text: "Manish Motghare founded Code Karo Yaaro in the year 2020. Code karo yaaro is Nagpur based company with a vision to make every child literate in computer science and to generate a caliber of coding to enhance life experience. "
+  
+  utter_Mission:
+  - text: "We want to develop the thinking ability of every child, by advancing computer science with new technologies and supporting them for a bright future."
 
   utter_mentors:
   - text: "Our highly motivated team consists of highly experienced, knowledgeable intellectuals from the education and software industry with relevant experience of more than a decade.The ‘Code Karo Yaaro’, is mentored by the people who have wide experience in the software development and education industry."
@@ -129,8 +135,8 @@ responses:
   - text: "Of course!,a student can create/build apps with great ease after they finish their course."
 
   utter_Help:
-  - text: "We teach a lot of things here.Visuals help to create an impact on an individual to understand the courses.A child needs to be explained about what he/she learns in an innovative way. Child needs a good exposure.He/she needs to develop interest in whatever they do.It helps them for the overall development and they can perform all other chores easily."
-
+  - text: "We teach a lot of things here. Just book a free trial"
+  
   utter_Suggestions:
   - text: "It completely depends on the age and interest of an individual.Students need to be guided properly.You can contact us regarding this."
 
